@@ -1,0 +1,17 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#notification {
+    position: fixed;
+    min-width: 300px;
+    display: none;
+    right: 20px;
+    top: 20px;
+    z-index: 50;
+    border-left: 5px solid;
+}
+
+#notification.active {
+    display: flex;
+}
