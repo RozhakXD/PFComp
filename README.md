@@ -4,9 +4,9 @@
 PFComp is a modern web application designed to compress PDF files quickly and efficiently 📄✨. With its sleek design and powerful backend, PFComp ensures top-notch file compression without compromising quality. 
 
 ## 🚀 Features
-- 🖌 **Intuitive Interface**: Clean, responsive, and easy to navigate with Tailwind CSS.
-- ⚡ **Lightning-Fast Compression**: High-speed backend processing for minimal wait times.
 - 🏆 **High-Quality Output**: Keeps your documents sharp while reducing file size.
+- ⚡ **Lightning-Fast Compression**: High-speed backend processing for minimal wait times.
+- 🖌 **Intuitive Interface**: Clean, responsive, and easy to navigate with Tailwind CSS.
 - 🌍 **Cross-Platform**: Compatible with all devices and browsers.
 
 ## 🛠️ Tech Stack
@@ -16,8 +16,6 @@ PFComp is a modern web application designed to compress PDF files quickly and ef
 
 ## 🔧 Installation and Setup
 ### Prerequisites
-
-Ensure you have the following installed:
 - 🐍 Python 3.9+
 - 📦 pip (Python package manager)
 
