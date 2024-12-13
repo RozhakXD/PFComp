@@ -18,6 +18,7 @@ PFComp is a modern web application designed to compress PDF files quickly and ef
 ### Prerequisites
 - 🐍 Python 3.9+
 - 📦 pip (Python package manager)
+- 📄 Ghostscript (for PDF compression)
 
 ### Steps
 1. Clone the repository:
@@ -57,10 +58,16 @@ PFComp is a modern web application designed to compress PDF files quickly and ef
 ![PFComp Images](https://github.com/user-attachments/assets/3e4fae84-cab3-457f-afac-319767a65a5c)
 
 ## 🛠️ Troubleshooting
-
 - **File Upload Not Working?** Ensure the file format is `.pdf` and does not exceed the size limit.
 - **Application Not Starting?** Check your Python and pip versions, and ensure all dependencies are installed.
 - **Compression Issues?** Make sure the uploaded file is not corrupted or try restarting the application.
+- **Ghostscript Not Installed?** Verify Ghostscript is installed and accessible from the command line.
+  - On Linux/Termux, install with:
+
+    ```bash
+    pkg install ghostscript
+    ```
+  - On other platforms, download it from [Ghostscript official site](https://www.ghostscript.com/).
 
 ## ❤️ Support Us
 If you love this project and want to support its development, consider buying us a coffee or leaving a tip:
